@@ -5,7 +5,7 @@ from .sensors.base import Sensor
 class NeuronavClient:
     def __init__(self, api_key: str, upload: bool = False):
         """
-        For v1, we just store the api_key. 'upload' is a placeholder for future cloud sync.
+        We just store the api_key. 'upload' is a placeholder for future cloud sync.
         """
         if not isinstance(api_key, str) or not api_key:
             raise ValueError("api_key must be a non-empty string.")
