@@ -119,6 +119,6 @@ setup.cfg                   # package metadata & tool configs
 ## Quickstart Create vertual environment if needed.
 - `python -m venv myenv`
 - `source myenv/bin/activate`
-- Then run: `python example/test_script.py`
+- Then run: `python test_script.py`
 
 
